@@ -30,7 +30,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "https://github.com/huanghongxun/HMCL/releases/download/release-${version}/HMCL-${version}.jar";
-    hash = "sha256-A8F8efM5yTA0tDQ8fMxWp9SZ31J0ZjIUAuYPjhxga54=";
+    hash = "sha256-ziqcauetWoFn58kBJ0KnqX5CPNC/Sn7DD/Buxdi977I=";
   };
 
   dontUnpack = true;
