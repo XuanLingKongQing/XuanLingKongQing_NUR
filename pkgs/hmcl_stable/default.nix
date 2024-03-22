@@ -18,7 +18,7 @@
 }:
 
 let
-  version = "3.5.6";
+  version = "3.5.7";
   icon = fetchurl {
     url = "https://github.com/huanghongxun/HMCL/raw/release-${version}/HMCLauncher/HMCL/HMCL.ico";
     hash = "sha256-MWp78rP4b39Scz5/gpsjwaJhSu+K9q3S2B2cD/V31MA=";
